@@ -1,0 +1,36 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Links
+@using Sitecore.Data.Items
+@model RenderingModel
+@{
+  Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    <meta name="description" content="Test" />
+    <meta name="author" content="" />
+    <link href="/Contents/Styles/campaigns.css" rel="stylesheet" />
+    
+    
+    
+    @Html.Sitecore().VisitorIdentification()
+</head>
+  <body>
+      @Html.Sitecore().ViewRendering("~/Views/Renderings/NIIT/SiteHeader.cshtml")
+      <div class="container">
+         @Html.Sitecore().Placeholder("niitmain")
+
+      </div>
+
+      <div>
+          <a href="@Sitecore.Context.Site.TargetHostName">Go To Home</a>
+      </div>
+      
+      @Html.Sitecore().ViewRendering("~/Views/Renderings/NIIT/SiteFooter.cshtml")
+  </body>
+</html>

@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using NIIT.Web.Model
+@model RenderingModel
+    
+@{
+
+}
+<div class="indentedSection">
+    <table class="bikes">
+        <tr>
+            <th>Date</th>
+            <td>@Html.Sitecore().Field(Template.Holiday.Fields.StartDate.ToString())</td>
+        </tr>
+        <tr>
+            <th>Price per  person</th>
+            <td>@Html.Sitecore().Field(Template.Holiday.Fields.PricePerPerson.ToString())</td>
+        </tr>
+    </table>
+</div>		

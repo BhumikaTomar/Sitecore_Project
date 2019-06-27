@@ -1,0 +1,32 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="http://xp0.sc" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="Views\Layouts\NIIT\ResponsiveLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E1B1B194-D806-48EE-9F6C-280189164881}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\SiteHeader.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{08BF7D07-66BC-4353-AF5A-AA0CAC232555}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\SiteFooter.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B44A7F89-C395-4542-A36E-587F9C61D5CE}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\Introduction.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DAF3191B-1007-42B2-B342-2AB0FA317FA6}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\SubNavigation.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{AA32569A-55CE-42BE-926D-729EF5F42D4C}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\BikeOverview.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5C4F68B4-2331-479E-AA58-5151A786CDE3}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\CommentForm.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{46EE9872-B52D-4FC1-A6C6-C223567BCD46}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\CommentList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DB0F1CDE-5313-4BB0-ADBB-586FFF8E8B89}</Item>
+  </File>
+  <File Include="Views\Renderings\NIIT\HolidayOverview.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{51368B58-D82D-484F-8B6E-32B2BA965F5B}</Item>
+  </File>
+</Project>

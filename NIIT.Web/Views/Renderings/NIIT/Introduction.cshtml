@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using NIIT.Web.Model
+@model RenderingModel
+@{
+
+}
+<div class="indentedSection content @RenderingContext.Current.Rendering.Parameters["BackgroundColor"]">
+    <h1>@Html.Sitecore().Field(Template.BasePage.Fields.MainHeading.ToString())</h1>
+    @Html.Sitecore().Field(Template.BasePage.Fields.MainImage.ToString(), new { @class = "right" })
+    <p>
+        @Html.Sitecore().Field(Template.BasePage.Fields.MainDescription.ToString())
+    </p>
+
+</div> 

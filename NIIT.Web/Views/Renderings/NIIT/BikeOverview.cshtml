@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using NIIT.Web.Model
+@model RenderingModel
+@{
+
+}
+<div class="indentedSection">
+    <table class="bikes">
+        <tr>
+            <th>Type</th>
+            <td>@Html.Sitecore().Field(Template.Bike.Fields.Type.ToString())</td>
+        </tr>
+        <tr>
+            <th>Suitability</th>
+            <td>@Html.Sitecore().Field(Template.Bike.Fields.Suitability.ToString())</td>
+        </tr>
+    </table>
+</div>
